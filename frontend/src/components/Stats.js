@@ -1,14 +1,21 @@
 import React from "react";
-import "./Stats.css";
 
 function Stats() {
   return (
-    <section className="stats">
-      <h2>Our Achievements</h2>
-      <div className="stats-cards">
-        <div className="card"><h3>500+</h3><p>Videos</p></div>
-        <div className="card"><h3>1000+</h3><p>Students</p></div>
-        <div className="card"><h3>50+</h3><p>Courses</p></div>
+    <section className="bg-green-50 py-12">
+      <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-around text-center">
+        <div className="mb-6 md:mb-0">
+          <h3 className="text-4xl font-bold text-green-700">500+</h3>
+          <p className="text-gray-700">Videos</p>
+        </div>
+        <div className="mb-6 md:mb-0">
+          <h3 className="text-4xl font-bold text-green-700">1,200+</h3>
+          <p className="text-gray-700">Images</p>
+        </div>
+        <div>
+          <h3 className="text-4xl font-bold text-green-700">300+</h3>
+          <p className="text-gray-700">Games</p>
+        </div>
       </div>
     </section>
   );
