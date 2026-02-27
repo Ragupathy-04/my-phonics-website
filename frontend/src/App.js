@@ -6,15 +6,14 @@ import Stats from "./components/Stats";
 import Features from "./components/Features";
 import CTA from "./components/CTA";
 import Footer from "./components/Footer";
-import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <Hero />
       <Programs />
-      <Media />
-      <Stats />
+      <Media />   {/* New Media Section */}
+      <Stats />   {/* New Stats Section */}
       <Features />
       <CTA />
       <Footer />
