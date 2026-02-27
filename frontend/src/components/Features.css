@@ -1,0 +1,3 @@
+.features { padding: 50px; text-align: center; background-color: #f5f5dc; }
+.features-cards { display: flex; justify-content: center; gap: 20px; margin-top: 20px; flex-wrap: wrap; }
+.card { background-color: #ffe4b5; padding: 20px; border-radius: 10px; min-width: 180px; font-weight: bold; }

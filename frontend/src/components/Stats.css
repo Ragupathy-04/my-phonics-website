@@ -1,0 +1,3 @@
+.stats { padding: 50px; text-align: center; background-color: #fff0f5; }
+.stats-cards { display: flex; justify-content: center; gap: 20px; margin-top: 20px; flex-wrap: wrap; }
+.card { background-color: #ffb6c1; padding: 20px; border-radius: 10px; min-width: 150px; font-weight: bold; }

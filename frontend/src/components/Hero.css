@@ -1,0 +1,11 @@
+.hero {
+  padding: 50px;
+  text-align: center;
+  background-color: #f0f8ff;
+}
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
